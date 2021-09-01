@@ -21,19 +21,19 @@ Before beginning the script, you need:
 
 1. To download other eBird data.  You will need to "register", sign in, and request access.  The process starts here: https://ebird.org/data/download
 
-     1.i. I downloaded data for CA across January 2010 to December 2020.  The resulting file is titled: "ebd_US-CA_201001_202012_relJan-2021.txt"
+     i. I downloaded data for CA across January 2010 to December 2020.  The resulting file is titled: "ebd_US-CA_201001_202012_relJan-2021.txt"
 The title of this file reflects its contents.  The "ebd_US-" means eBird USA, followed by "CA", the state, and the dates 201001 for Jan 2010 and 202012 for Dec 2020
 
-     1.ii. This excerpt of eBird data is very large and takes a long time to load. In order to be able to continue loading eBird data directly, you need to make sure that you request a manageable excerpt of data.  Trying to upload the whole eBird data is not possible in R without using the eBird package “auk”. I found this package to be difficult to use and so did the data processing myself.
+     ii. This excerpt of eBird data is very large and takes a long time to load. In order to be able to continue loading eBird data directly, you need to make sure that you request a manageable excerpt of data.  Trying to upload the whole eBird data is not possible in R without using the eBird package “auk”. I found this package to be difficult to use and so did the data processing myself.
 
-     1.iii. Note in the script there is a command: 
+     iii. Note in the script there is a command: 
 save.image(paste(ebirdpath, "eBird_loaded.RData", sep=""))
 to save the text file as an R project after some initial processing has been completed.  This is advisable.  
 You can then load the data with the command:
 		load(paste(ebirdpath, "eBird_loaded.RData", sep=""))
 where “ebirdpath” is the directory to where you want to save the file (e.g. “C:/”).
 
-     1.iv. Finally, the eBird data file is too large to upload to the repository or share by email. Here is a link to the eBird data used in this assessment:
+     iv. Finally, the eBird data file is too large to upload to the repository or share by email. Here is a link to the eBird data used in this assessment:
 XXXXXXXXXXXXXXXXXXXXXX
 
 2. The file "AgencyBoundary_dissolve_rprj" which defines the EBSN agency boundaries. 
