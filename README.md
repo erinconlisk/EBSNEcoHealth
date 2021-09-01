@@ -38,6 +38,7 @@ XXXXXXXXXXXXXXXXXXXXXX
 4. To install the packages listed at the top with elements “library(PACKAGE NAME)”. To install packages use the command: install.packages("PACKAGE NAME").
 
 
+
 ################################
 
 eBird_allspp_abundance_rasters.R
@@ -57,6 +58,7 @@ Before beginning the script, you will need:
 2. To choose the species.  See the list of scientific names in the script, starting around line 110. 
 
 3. To install the packages listed at the top with elements “library(PACKAGE NAME)”. To install packages use the command: install.packages("PACKAGE NAME"). These packages should be the same packages as were needed for “eBird_allspp_text_to_shapefile.R”
+
 
 
 #######################################
