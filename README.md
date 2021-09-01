@@ -8,7 +8,9 @@ https://docs.google.com/document/d/11aJk4GtvEyvmt35_tbMy_7Ou1yBdyCalw1XEjRxXi9k/
 A description of the scripts is as follows:
 
 ################################
+
 eBird_allspp_text_to_shapefile.R  
+
 ################################
 
 This code takes an eBird text file (an excerpt of the full eBird data) and creates GIS shapefiles for the observations that lie within the EBSN agency boundaries for a specific species in a specific year.  In the resulting shapefiles, repeat locations on a given day are removed but multiple observations within a 100 or 200-m grid cell have not been averaged nor have the grid cells been averaged over the breeding season. 
@@ -37,7 +39,9 @@ XXXXXXXXXXXXXXXXXXXXXX
 
 
 ################################
+
 eBird_allspp_abundance_rasters.R
+
 ################################
 
 This code downloads all the eBird relative abundance rasters within the East Bay Stewardship Network (EBSN) for each week for a specific species and averages them across the breeding season. Relative abundance rasters were created by Cornell to use all of the North American eBird data to model locations where abundances are expected to be highest or lowest for each week across the year (they do not include trends across years).  
@@ -56,7 +60,9 @@ Before beginning the script, you will need:
 
 
 #######################################
+
 eBird_allspp_grid_analyze_and_figures.R
+
 #######################################
 
 This code takes the output of "eBird_text_to_shapefile_allapp.R" and averages the observations within a grid cell on a specific day. Then the resulting daily grids are averaged across the breeding season. The result is one grid per year of average counts (across the grid cells and across days) that is used in trend analyses. As described in the methods above, two analyses are performed on (a) presence-absence data across all eBird observations, and (b) abundance within locations with repeat observations. 
