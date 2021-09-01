@@ -34,7 +34,7 @@ You can then load the data with the command:
 where “ebirdpath” is the directory to where you want to save the file (e.g. “C:/”).
 
      iv. Finally, the eBird data file is too large to upload to the repository or share by email. Here is a link to the eBird data used in this assessment:
-XXXXXXXXXXXXXXXXXXXXXX
+https://drive.google.com/file/d/1PmMkw1Zp8W1o3nbPyLDjbljquQOrkIIZ/view?usp=sharing
 
 2. The file "AgencyBoundary_dissolve_rprj" which defines the EBSN agency boundaries. 
 
